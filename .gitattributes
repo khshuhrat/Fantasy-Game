@@ -1,2 +1,5 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+git lfs untrack .gitattributes
+git lfs untrack .gitignore
+git add .gitattributes .gitignore
+git commit -m "Commit .gitattributes and .gitignore as normal files"
+D:/Fantasy-Game filter=lfs diff=lfs merge=lfs -text
